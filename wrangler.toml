@@ -3,10 +3,9 @@ compatibility_date = "2025-05-05"
 compatibility_flags = [ "nodejs_compat" ]
 pages_build_output_dir = "dist"
 
-# Namespace KV pour la waitlist. Crée-le avec :
-#   npx wrangler kv namespace create WAITLIST
-# puis colle l'id renvoyé ci-dessous (et configure aussi le binding
-# WAITLIST dans Cloudflare Pages → Settings → Functions → KV namespace bindings).
+# Namespace KV pour la waitlist (créé via `wrangler kv namespace create WAITLIST`).
+# ⚠️ Pour la prod, configure aussi le binding WAITLIST dans
+# Cloudflare Pages → Settings → Functions → KV namespace bindings.
 [[kv_namespaces]]
 binding = "WAITLIST"
-id = "REMPLACER_PAR_ID_KV"
+id = "7fc4f5f8327145a3b143adc641ee6d71"
