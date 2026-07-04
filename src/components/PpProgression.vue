@@ -12,6 +12,7 @@ const matchesByMonth = [
 
 const features = [
   'Courbe de classement sur toutes tes saisons, pas juste le dernier chiffre.',
+  'Radar de forme : annote ta courbe (blessure, changement de plaque, grosse prépa…) pour comprendre chaque variation.',
   'Historique de chaque match : adversaire, points gagnés/perdus, tendance.',
   'Objectifs et projections : à quel rythme tu montes, quand tu passes un palier.',
 ]
@@ -33,11 +34,12 @@ const features = [
             Progression
           </p>
           <h2 class="title-text text-3xl md:text-4xl font-bold mt-3">
-            Vois ta progression comme jamais avant.
+            Ton radar de forme, saison après saison.
           </h2>
           <p class="description-text mt-4 text-base-content/60 leading-relaxed">
             Chaque point compte, mais c'est la tendance qui raconte ton histoire.
-            Pong Ping reconstruit ta trajectoire complète et la rend limpide.
+            Topspin reconstruit ta trajectoire complète, la rend limpide, et te laisse
+            annoter chaque tournant pour savoir <em>pourquoi</em> ça a bougé.
           </p>
 
           <ul class="mt-8 space-y-4">
@@ -63,6 +65,10 @@ const features = [
               <span class="text-xs text-secondary sans-serif-text">saison en cours</span>
             </div>
             <PpLineChart :values="seasonPoints" stroke="#ff5c35" :height="180" />
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="inline-flex items-center gap-1 rounded-full bg-white/5 border border-white/10 px-2.5 py-1 text-[11px] text-base-content/60 sans-serif-text">🩹 Blessure · nov.</span>
+              <span class="inline-flex items-center gap-1 rounded-full bg-white/5 border border-white/10 px-2.5 py-1 text-[11px] text-base-content/60 sans-serif-text">🏓 Nouvelle plaque · janv.</span>
+            </div>
           </div>
 
           <div class="rounded-2xl border border-white/10 bg-base-200/70 p-5">

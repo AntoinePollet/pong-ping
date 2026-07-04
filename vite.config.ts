@@ -104,8 +104,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.png', 'favicon-32x32.png', 'favicon-16x16.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Pong Ping — Ton classement, enfin beau et vivant',
-        short_name: 'Pong Ping',
+        name: 'Topspin — Ton classement, enfin beau et vivant',
+        short_name: 'Topspin',
         theme_color: '#0b0f17',
         icons: [
           {

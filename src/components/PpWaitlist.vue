@@ -62,7 +62,7 @@ async function submit() {
           Accès anticipé
         </p>
         <h2 class="title-text text-3xl md:text-4xl font-bold mt-3">
-          Sois parmi les premiers à tester Pong Ping.
+          Sois parmi les premiers à tester Topspin.
         </h2>
         <p class="description-text mt-4 text-base-content/60">
           Laisse ton email : tu auras un accès gratuit à la bêta dès son ouverture,
@@ -121,7 +121,7 @@ async function submit() {
           <label class="mt-4 flex items-start gap-2.5 cursor-pointer">
             <input v-model="consent" type="checkbox" class="checkbox checkbox-sm checkbox-primary mt-0.5">
             <span class="text-xs text-base-content/50 sans-serif-text leading-relaxed">
-              J'accepte que mon email soit utilisé pour être informé du lancement de Pong Ping,
+              J'accepte que mon email soit utilisé pour être informé du lancement de Topspin,
               conformément à la
               <RouterLink to="/politique-confidentialite" class="text-primary hover:underline">politique de confidentialité</RouterLink>.
               Désinscription possible à tout moment.

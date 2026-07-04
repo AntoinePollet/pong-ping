@@ -4,7 +4,7 @@ defineOptions({
 })
 
 useHead({
-  title: 'Mentions légales — Pong Ping',
+  title: 'Mentions légales — Topspin',
   meta: [{ name: 'robots', content: 'noindex, follow' }],
   link: [{ rel: 'canonical', href: 'https://pongping.polletantoine.com/mentions-legales' }],
 })
@@ -16,7 +16,7 @@ useHead({
       <div class="container mx-auto px-4 h-16 flex items-center justify-between">
         <RouterLink to="/" class="flex items-center gap-2.5">
           <span class="h-4 w-4 rounded-full bg-primary shadow-[0_0_12px_rgba(255,92,53,0.7)]" />
-          <span class="text-lg font-bold title-text">Pong<span class="text-primary">Ping</span></span>
+          <span class="text-lg font-bold title-text">Top<span class="text-primary">spin</span></span>
         </RouterLink>
         <RouterLink to="/" class="text-sm text-base-content/60 hover:text-primary sans-serif-text">
           ← Accueil
@@ -35,7 +35,7 @@ useHead({
             Éditeur du site
           </h2>
           <p>
-            Le site <strong>Pong Ping</strong> (pongping.polletantoine.com) est un projet indépendant édité par
+            Le site <strong>Topspin</strong> (pongping.polletantoine.com) est un projet indépendant édité par
             Antoine Pollet, entrepreneur individuel.<br>
             Contact : <a href="mailto:pollet.antoine.alexis@gmail.com" class="text-primary hover:underline">pollet.antoine.alexis@gmail.com</a>
           </p>
@@ -60,7 +60,7 @@ useHead({
             Indépendance
           </h2>
           <p>
-            Pong Ping est un projet indépendant, développé par des passionnés de tennis de table.
+            Topspin est un projet indépendant, développé par des passionnés de tennis de table.
             Il n'est <strong>ni affilié, ni approuvé, ni sponsorisé par la Fédération Française de Tennis de Table (FFTT)</strong>
             ni par aucune autre institution. Les marques citées appartiennent à leurs détenteurs respectifs.
           </p>
@@ -82,7 +82,7 @@ useHead({
             Responsabilité
           </h2>
           <p>
-            Pong Ping est en phase de préparation. Les fonctionnalités décrites relèvent d'une feuille de route
+            Topspin est en phase de préparation. Les fonctionnalités décrites relèvent d'une feuille de route
             et sont susceptibles d'évoluer. Aucune garantie n'est donnée quant à la disponibilité future du service.
           </p>
         </section>

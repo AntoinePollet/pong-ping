@@ -4,7 +4,7 @@ defineOptions({
 })
 
 useHead({
-  title: 'Politique de confidentialité — Pong Ping',
+  title: 'Politique de confidentialité — Topspin',
   meta: [{ name: 'robots', content: 'noindex, follow' }],
   link: [{ rel: 'canonical', href: 'https://pongping.polletantoine.com/politique-confidentialite' }],
 })
@@ -16,7 +16,7 @@ useHead({
       <div class="container mx-auto px-4 h-16 flex items-center justify-between">
         <RouterLink to="/" class="flex items-center gap-2.5">
           <span class="h-4 w-4 rounded-full bg-primary shadow-[0_0_12px_rgba(255,92,53,0.7)]" />
-          <span class="text-lg font-bold title-text">Pong<span class="text-primary">Ping</span></span>
+          <span class="text-lg font-bold title-text">Top<span class="text-primary">spin</span></span>
         </RouterLink>
         <RouterLink to="/" class="text-sm text-base-content/60 hover:text-primary sans-serif-text">
           ← Accueil
@@ -38,7 +38,7 @@ useHead({
             Responsable du traitement
           </h2>
           <p>
-            Les données collectées sur ce site sont traitées par Antoine Pollet (Pong Ping), éditeur du site.
+            Les données collectées sur ce site sont traitées par Antoine Pollet (Topspin), éditeur du site.
             Contact : <a href="mailto:pollet.antoine.alexis@gmail.com" class="text-primary hover:underline">pollet.antoine.alexis@gmail.com</a>.
           </p>
         </section>
@@ -64,7 +64,7 @@ useHead({
             Finalité et base légale
           </h2>
           <p>
-            Ces données servent uniquement à vous informer du lancement de Pong Ping et à mesurer l'intérêt
+            Ces données servent uniquement à vous informer du lancement de Topspin et à mesurer l'intérêt
             pour le projet. Le traitement repose sur votre <strong>consentement</strong>, recueilli lors de l'inscription.
           </p>
         </section>

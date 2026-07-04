@@ -4,7 +4,7 @@ defineOptions({
 })
 
 useHead({
-  title: 'Pong Ping — Ton classement, enfin beau et vivant',
+  title: 'Topspin — Ton classement, enfin beau et vivant',
 })
 </script>
 

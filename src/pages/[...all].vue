@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Page introuvable — Pong Ping',
+  title: 'Page introuvable — Topspin',
   meta: [{ name: 'robots', content: 'noindex' }],
 })
 </script>

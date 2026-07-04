@@ -2,21 +2,21 @@
 const roadmap = [
   {
     phase: 'Bientôt',
-    icon: '🏓',
-    title: 'Suivi d\'usure du matériel',
-    text: 'Enregistre tes plaques et ton bois, et Pong Ping estime leur usure selon ton volume de jeu — pour savoir quand elles perdent en performance.',
+    icon: '🎯',
+    title: 'Configurateur de raquette',
+    text: 'Un questionnaire guidé (style de jeu, niveau, contraintes, budget) qui te recommande des combinaisons bois + revêtements adaptées à ton jeu.',
+  },
+  {
+    phase: 'Bientôt',
+    icon: '📚',
+    title: 'Bibliothèque d\'exercices',
+    text: 'Des exercices d\'entraînement ciblés selon les points faibles que tu identifies — pour progresser sur ce qui compte vraiment pour toi.',
   },
   {
     phase: 'Plus tard',
-    icon: '🛒',
-    title: 'Marketplace matériel',
-    text: 'Achète plaques et bois au bon moment, avec des recommandations basées sur ton style de jeu et ton niveau.',
-  },
-  {
-    phase: 'Plus tard',
-    icon: '🔔',
-    title: 'Rappels intelligents',
-    text: 'Une notif quand il est temps de changer ta plaque, avant que ça se ressente sur tes résultats.',
+    icon: '⚔️',
+    title: 'Défis entre amis & club',
+    text: 'Défie tes potes et tes coéquipiers dans l\'esprit de Freeping, mais couplé à tes vraies données de classement et de progression.',
   },
 ]
 </script>
@@ -34,7 +34,7 @@ const roadmap = [
           On ne s'arrête pas aux stats.
         </h2>
         <p class="description-text mt-4 text-base-content/60 leading-relaxed">
-          Voici où on veut emmener Pong Ping. Une feuille de route, pas des promesses
+          Voici où on veut emmener Topspin. Une feuille de route, pas des promesses
           gravées dans le marbre — et la bêta aide à décider quoi construire en premier.
         </p>
       </div>
