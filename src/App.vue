@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const SITE_URL = 'https://pongping.polletantoine.com'
-const OG_IMAGE = `${SITE_URL}/og-image.jpg`
+const OG_IMAGE = `${SITE_URL}/og-image.png`
 
 useHead({
   title: 'Topspin — Ton classement FFTT, enfin beau et vivant',
@@ -38,6 +38,7 @@ useHead({
   ],
   link: [
     { rel: 'canonical', href: SITE_URL },
+    { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
     { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
     { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
     { rel: 'icon', type: 'image/png', href: '/favicon.png' },
