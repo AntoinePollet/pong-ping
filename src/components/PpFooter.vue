@@ -15,7 +15,7 @@ function scrollTo(id: string) {
             <span class="relative flex h-8 w-8 items-center justify-center">
               <span class="h-4 w-4 rounded-full bg-primary shadow-[0_0_12px_rgba(255,92,53,0.7)]" />
             </span>
-            <span class="text-lg font-bold title-text">Top<span class="text-primary">spin</span></span>
+            <span class="text-lg font-bold title-text">Pong<span class="text-primary">ster</span></span>
           </div>
           <p class="description-text text-sm text-base-content/50 max-w-sm leading-relaxed">
             Le suivi de progression au tennis de table, enfin beau et clair.
@@ -46,7 +46,7 @@ function scrollTo(id: string) {
               </li>
               <li>
                 <button type="button" class="text-base-content/70 hover:text-primary sans-serif-text" @click="scrollTo('waitlist')">
-                  Rejoindre la bêta
+                  Rester informé
                 </button>
               </li>
             </ul>
@@ -73,7 +73,7 @@ function scrollTo(id: string) {
 
       <div class="mt-12 pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-3">
         <p class="text-xs text-base-content/40 sans-serif-text">
-          © 2026 Topspin. Tous droits réservés.
+          © 2026 Pongster. Tous droits réservés.
         </p>
         <p class="text-xs text-base-content/30 sans-serif-text text-center sm:text-right">
           Projet indépendant, non affilié à la Fédération Française de Tennis de Table.

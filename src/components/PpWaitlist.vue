@@ -83,13 +83,13 @@ async function submit() {
     <div class="container relative mx-auto px-4">
       <div class="max-w-xl mx-auto text-center">
         <p class="text-sm font-semibold uppercase tracking-widest text-primary sans-serif-text">
-          Accès anticipé
+          Lancement à venir
         </p>
         <h2 class="title-text text-3xl md:text-4xl font-bold mt-3">
-          Sois parmi les premiers à tester Topspin.
+          Sois prévenu dès l'ouverture de Pongster.
         </h2>
         <p class="description-text mt-4 text-base-content/60">
-          Laisse ton email : tu auras un accès gratuit à la bêta dès son ouverture,
+          Laisse ton email : on te préviendra dès l'ouverture. L'app est gratuite,
           et ta voix comptera dans ce qu'on construit en premier.
         </p>
 
@@ -119,7 +119,7 @@ async function submit() {
             Tu es sur la liste !
           </h3>
           <p class="description-text mt-2 text-sm text-base-content/60">
-            On te prévient dès que la bêta ouvre. À très vite sur les tables.
+            On te prévient dès l'ouverture de Pongster. À très vite sur les tables.
           </p>
         </div>
 
@@ -159,7 +159,7 @@ async function submit() {
           <label class="mt-4 flex items-start gap-2.5 cursor-pointer">
             <input v-model="consent" type="checkbox" class="checkbox checkbox-sm checkbox-primary mt-0.5">
             <span class="text-xs text-base-content/50 sans-serif-text leading-relaxed">
-              J'accepte que mon email soit utilisé pour être informé du lancement de Topspin,
+              J'accepte que mon email soit utilisé pour être informé du lancement de Pongster,
               conformément à la
               <RouterLink to="/politique-confidentialite" class="text-primary hover:underline">politique de confidentialité</RouterLink>.
               Désinscription possible à tout moment.
@@ -176,7 +176,7 @@ async function submit() {
             :disabled="status === 'loading'"
           >
             <span v-if="status === 'loading'" class="loading loading-spinner loading-sm" />
-            {{ status === 'loading' ? 'Envoi…' : 'Rejoindre la bêta gratuite' }}
+            {{ status === 'loading' ? 'Envoi…' : 'Être prévenu au lancement' }}
           </button>
           <p class="mt-3 text-center text-xs text-base-content/30 sans-serif-text">
             Gratuit · sans engagement · pas de spam

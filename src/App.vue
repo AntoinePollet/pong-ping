@@ -1,31 +1,31 @@
 <script setup lang="ts">
-const SITE_URL = 'https://pongping.polletantoine.com'
-const OG_IMAGE = `${SITE_URL}/og-image.png`
+const SITE_URL = 'https://pongster.fr'
+const OG_IMAGE = `${SITE_URL}/og-image-v2.png`
 
 useHead({
-  title: 'Topspin — Ton classement FFTT, enfin beau et vivant',
+  title: 'Pongster — Ton classement FFTT, enfin beau et vivant',
   meta: [
-    { name: 'description', content: 'Topspin suit ta progression au tennis de table : courbes de classement, historique, statistiques et calendrier des tournois. Un projet indépendant fait par des passionnés. Rejoins la bêta.' },
+    { name: 'description', content: 'Pongster suit ta progression au tennis de table : courbes de classement, historique, statistiques et calendrier des tournois. Un projet indépendant et gratuit fait par des passionnés. Laisse ton email pour être prévenu au lancement.' },
     { name: 'keywords', content: 'tennis de table, ping pong, classement, FFTT, progression, statistiques, tournois, pongiste, classement officiel' },
-    { name: 'author', content: 'Topspin' },
+    { name: 'author', content: 'Pongster' },
     { name: 'robots', content: 'index, follow' },
     { name: 'language', content: 'fr' },
 
     // Open Graph
-    { property: 'og:title', content: 'Topspin — Ton classement, enfin beau et vivant' },
-    { property: 'og:description', content: 'Suis ta progression au tennis de table : courbes, historique, stats et tournois. Rejoins la bêta.' },
+    { property: 'og:title', content: 'Pongster — Ton classement, enfin beau et vivant' },
+    { property: 'og:description', content: 'Suis ta progression au tennis de table : courbes, historique, stats et tournois. Gratuit — sois prévenu au lancement.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: SITE_URL },
     { property: 'og:image', content: OG_IMAGE },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:image:alt', content: 'Topspin — suivi de progression au tennis de table' },
+    { property: 'og:image:alt', content: 'Pongster — suivi de progression au tennis de table' },
     { property: 'og:locale', content: 'fr_FR' },
-    { property: 'og:site_name', content: 'Topspin' },
+    { property: 'og:site_name', content: 'Pongster' },
 
     // Twitter Card
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Topspin — Ton classement, enfin beau et vivant' },
+    { name: 'twitter:title', content: 'Pongster — Ton classement, enfin beau et vivant' },
     { name: 'twitter:description', content: 'Suis ta progression au tennis de table : courbes, historique, stats et tournois.' },
     { name: 'twitter:image', content: OG_IMAGE },
 
@@ -34,7 +34,7 @@ useHead({
     { name: 'msapplication-TileColor', content: '#0b0f17' },
     { name: 'apple-mobile-web-app-capable', content: 'yes' },
     { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
-    { name: 'apple-mobile-web-app-title', content: 'Topspin' },
+    { name: 'apple-mobile-web-app-title', content: 'Pongster' },
   ],
   link: [
     { rel: 'canonical', href: SITE_URL },

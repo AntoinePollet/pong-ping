@@ -38,7 +38,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
           <span class="absolute inset-0 rounded-full bg-primary/20 blur-md group-hover:bg-primary/40 transition-colors" />
           <span class="relative h-4 w-4 rounded-full bg-primary shadow-[0_0_12px_rgba(255,92,53,0.7)]" />
         </span>
-        <span class="text-lg font-bold title-text text-base-content">Top<span class="text-primary">spin</span></span>
+        <span class="text-lg font-bold title-text text-base-content">Pong<span class="text-primary">ster</span></span>
       </button>
 
       <!-- Desktop nav -->
@@ -60,7 +60,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
           class="btn btn-primary btn-sm rounded-full px-4 font-semibold shadow-[0_0_20px_-4px_rgba(255,92,53,0.6)]"
           @click="scrollTo('waitlist')"
         >
-          Rejoindre la bêta
+          Rester informé
         </button>
         <button
           type="button"

@@ -127,8 +127,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'favicon.png', 'favicon-32x32.png', 'favicon-16x16.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Topspin — Ton classement, enfin beau et vivant',
-        short_name: 'Topspin',
+        name: 'Pongster — Ton classement, enfin beau et vivant',
+        short_name: 'Pongster',
         theme_color: '#0b0f17',
         icons: [
           {
@@ -187,7 +187,7 @@ export default defineConfig({
     },
     onFinished() {
       generateSitemap({
-        hostname: 'https://pongping.polletantoine.com/',
+        hostname: 'https://pongster.fr/',
         exclude: ['/README', '/404', '/mentions-legales', '/politique-confidentialite'],
         changefreq: 'weekly',
       })

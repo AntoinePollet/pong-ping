@@ -6,9 +6,9 @@ defineOptions({
 })
 
 useHead({
-  title: 'Politique de confidentialité — Topspin',
+  title: 'Politique de confidentialité — Pongster',
   meta: [{ name: 'robots', content: 'noindex, follow' }],
-  link: [{ rel: 'canonical', href: 'https://pongping.polletantoine.com/politique-confidentialite' }],
+  link: [{ rel: 'canonical', href: 'https://pongster.fr/politique-confidentialite' }],
 })
 </script>
 
@@ -40,7 +40,7 @@ useHead({
             Responsable du traitement
           </h2>
           <p>
-            Les données collectées sur ce site sont traitées par Antoine Pollet (Topspin), éditeur du site.
+            Les données collectées sur ce site sont traitées par Antoine Pollet (Pongster), éditeur du site.
             Contact : <a href="mailto:pollet.antoine.alexis@gmail.com" class="text-primary hover:underline">pollet.antoine.alexis@gmail.com</a>.
           </p>
         </section>
@@ -66,7 +66,7 @@ useHead({
             Finalité et base légale
           </h2>
           <p>
-            Ces données servent uniquement à vous informer du lancement de Topspin et à mesurer l'intérêt
+            Ces données servent uniquement à vous informer du lancement de Pongster et à mesurer l'intérêt
             pour le projet. Le traitement repose sur votre <strong>consentement</strong>, recueilli lors de l'inscription.
           </p>
         </section>

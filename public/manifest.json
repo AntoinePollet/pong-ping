@@ -1,6 +1,6 @@
 {
-  "name": "Topspin — Ton classement, enfin beau et vivant",
-  "short_name": "Topspin",
+  "name": "Pongster — Ton classement, enfin beau et vivant",
+  "short_name": "Pongster",
   "description": "Suivi de progression au tennis de table : classement, historique, statistiques et calendrier des tournois. Projet indépendant.",
   "start_url": "/",
   "display": "standalone",

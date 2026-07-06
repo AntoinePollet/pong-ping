@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ArrowUp } from '@lucide/vue'
 
-// Données de DÉMONSTRATION (fictives) — Topspin n'est pas encore connecté
+// Données de DÉMONSTRATION (fictives) — Pongster n'est pas encore connecté
 // à l'API FFTT. Servent uniquement à illustrer l'interface.
 const rankPoints = [982, 991, 1005, 998, 1024, 1051, 1043, 1078, 1102, 1135, 1121, 1189]
 
@@ -25,7 +25,7 @@ function scrollTo(id: string) {
         <div v-motion :initial="{ opacity: 0, y: 24 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500 } }">
           <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-base-content/70 sans-serif-text mb-6">
             <span class="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
-            Tennis de table · projet indépendant · bêta
+            Tennis de table · projet indépendant · gratuit
           </div>
 
           <h1 class="title-text text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05]">
@@ -34,7 +34,7 @@ function scrollTo(id: string) {
           </h1>
 
           <p class="description-text mt-6 text-lg text-base-content/70 max-w-lg leading-relaxed">
-            Topspin transforme ta vie de pongiste en un tableau de bord clair :
+            Pongster transforme ta vie de pongiste en un tableau de bord clair :
             courbe de progression, historique de classement, stats de matchs et
             calendrier des tournois. Tout ce que le suivi officiel ne montre pas.
           </p>
@@ -45,7 +45,7 @@ function scrollTo(id: string) {
               class="btn btn-primary rounded-full px-6 font-semibold shadow-[0_0_28px_-6px_rgba(255,92,53,0.7)]"
               @click="scrollTo('waitlist')"
             >
-              Rejoindre la bêta gratuite
+              Être prévenu au lancement
             </button>
             <button
               type="button"
@@ -57,7 +57,7 @@ function scrollTo(id: string) {
           </div>
 
           <p class="mt-4 text-xs text-base-content/40 sans-serif-text">
-            Accès anticipé · gratuit · sans engagement
+            100 % gratuit · sans engagement · pas de spam
           </p>
         </div>
 

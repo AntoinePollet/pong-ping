@@ -37,7 +37,7 @@ interface SubscribePayload {
 }
 
 // Adresse expéditrice : doit être un domaine vérifié dans Resend.
-const FROM_EMAIL = 'Topspin <waitlist@polletantoine.com>'
+const FROM_EMAIL = 'Pongster <waitlist@polletantoine.com>'
 // Destinataire des notifications d'inscription (override possible via env).
 const DEFAULT_NOTIFY = 'pollet.antoine.alexis@gmail.com'
 
@@ -116,9 +116,9 @@ async function handleSubscribe(request: Request, env: Env): Promise<Response> {
         from: FROM_EMAIL,
         to: env.NOTIFY_EMAIL || DEFAULT_NOTIFY,
         replyTo: email,
-        subject: `🏓 Nouvelle inscription waitlist Topspin — ${email}`,
+        subject: `🏓 Nouvelle inscription waitlist Pongster — ${email}`,
         html: `<div style="font-family:Inter,Arial,sans-serif;color:#1f2937">
-          <h2 style="margin:0 0 12px">Nouvelle inscription à la bêta</h2>
+          <h2 style="margin:0 0 12px">Nouvelle inscription à la liste d'attente</h2>
           <p style="margin:4px 0"><strong>Email :</strong> ${email}</p>
           <p style="margin:4px 0"><strong>Niveau :</strong> ${levelLabel}</p>
           <p style="margin:16px 0 0;font-size:12px;color:#9ca3af">${record.createdAt}</p>

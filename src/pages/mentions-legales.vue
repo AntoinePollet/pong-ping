@@ -6,9 +6,9 @@ defineOptions({
 })
 
 useHead({
-  title: 'Mentions légales — Topspin',
+  title: 'Mentions légales — Pongster',
   meta: [{ name: 'robots', content: 'noindex, follow' }],
-  link: [{ rel: 'canonical', href: 'https://pongping.polletantoine.com/mentions-legales' }],
+  link: [{ rel: 'canonical', href: 'https://pongster.fr/mentions-legales' }],
 })
 </script>
 
@@ -37,7 +37,7 @@ useHead({
             Éditeur du site
           </h2>
           <p>
-            Le site <strong>Topspin</strong> (pongping.polletantoine.com) est un projet indépendant édité par
+            Le site <strong>Pongster</strong> (pongster.fr) est un projet indépendant édité par
             Antoine Pollet, entrepreneur individuel.<br>
             Contact : <a href="mailto:pollet.antoine.alexis@gmail.com" class="text-primary hover:underline">pollet.antoine.alexis@gmail.com</a>
           </p>
@@ -62,7 +62,7 @@ useHead({
             Indépendance
           </h2>
           <p>
-            Topspin est un projet indépendant, développé par des passionnés de tennis de table.
+            Pongster est un projet indépendant, développé par des passionnés de tennis de table.
             Il n'est <strong>ni affilié, ni approuvé, ni sponsorisé par la Fédération Française de Tennis de Table (FFTT)</strong>
             ni par aucune autre institution. Les marques citées appartiennent à leurs détenteurs respectifs.
           </p>
@@ -84,7 +84,7 @@ useHead({
             Responsabilité
           </h2>
           <p>
-            Topspin est en phase de préparation. Les fonctionnalités décrites relèvent d'une feuille de route
+            Pongster est en phase de préparation. Les fonctionnalités décrites relèvent d'une feuille de route
             et sont susceptibles d'évoluer. Aucune garantie n'est donnée quant à la disponibilité future du service.
           </p>
         </section>

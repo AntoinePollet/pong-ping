@@ -36,8 +36,8 @@ const roadmap = [
           On ne s'arrête pas aux stats.
         </h2>
         <p class="description-text mt-4 text-base-content/60 leading-relaxed">
-          Voici où on veut emmener Topspin. Une feuille de route, pas des promesses
-          gravées dans le marbre — et la bêta aide à décider quoi construire en premier.
+          Voici où on veut emmener Pongster. Une feuille de route, pas des promesses
+          gravées dans le marbre — et vos retours aident à décider quoi construire en premier.
         </p>
       </div>
 

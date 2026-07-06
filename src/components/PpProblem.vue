@@ -31,7 +31,7 @@ const pains = [
           Suivre sa progression au ping,<br>c'est aujourd'hui pénible.
         </h2>
         <p class="description-text mt-4 text-base-content/60">
-          Les données existent — elles sont juste mal montrées. Topspin repart de zéro sur l'expérience.
+          Les données existent — elles sont juste mal montrées. Pongster repart de zéro sur l'expérience.
         </p>
       </div>
 

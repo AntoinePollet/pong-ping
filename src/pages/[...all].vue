@@ -2,7 +2,7 @@
 import { SearchX } from '@lucide/vue'
 
 useHead({
-  title: 'Page introuvable — Topspin',
+  title: 'Page introuvable — Pongster',
   meta: [{ name: 'robots', content: 'noindex' }],
 })
 </script>

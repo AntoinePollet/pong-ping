@@ -40,7 +40,7 @@ const features = [
           </h2>
           <p class="description-text mt-4 text-base-content/60 leading-relaxed">
             Chaque point compte, mais c'est la tendance qui raconte ton histoire.
-            Topspin reconstruit ta trajectoire complète, la rend limpide, et te laisse
+            Pongster reconstruit ta trajectoire complète, la rend limpide, et te laisse
             annoter chaque tournant pour savoir <em>pourquoi</em> ça a bougé.
           </p>
 
